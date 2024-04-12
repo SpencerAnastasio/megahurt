@@ -1,0 +1,45 @@
+<div class="row" id="controls">
+  <div class="small-12 columns">
+    <div class="row">
+      <div class="small-4 columns text-center">
+        <div>
+          <h3>Kits:</h3>
+          <select id="kit">
+            <option value="Plasticid-MkII">Roland 808 MkII</option>
+            <option value="T09">Roland TR909</option>
+            <option value="TR606">Roland TR606</option>
+            <option value="hiphop">HipHop</option>
+            <option value="dr.groove">Boss Dr.Groove</option>
+            <option value="ace">Ace Tone Rhythm</option>
+            <option value="akai-xe-8">Akai XE-8</option>
+            <option value="nord-rack-2">Nord Rack 2</option>
+            <option value="groovebox">Roland GrooveBox</option>
+            <option value="Jomox-xbase-09">Jomox XBase 9</option>
+            <option value="sonor-mini-mammut">Sonor Mini-Mammut</option>
+          </select>
+          <button class="control left tiny radius" id="play">PLAY</button>
+        </div>
+      </div>
+      <div class="small-4 columns">
+        <div class='row'>
+          <h3>Volume:</h3>
+            <div id="kitVolume" class="range-slider radius" data-slider>
+              <span class="range-slider-handle"></span>
+              <span class="range-slider-active-segment"></span>
+              <input type="hidden">
+            </div>
+        </div>
+        <div class='row text-center'>
+          <button class='control tiny radius' id='clear'>CLEAR</button>
+        </div>
+      </div>
+      <div class="small-4 columns text-center">
+        <label>
+          <h3>Tempo:</h3>
+        </label>
+        <input class="tempoText" id="tempo" type="text" placeholder="Default = 120"/>
+        <button class="control right tiny radius" id="setTempo">SET TEMPO</button>
+      </div>
+    </div>
+  </div>
+</div>
